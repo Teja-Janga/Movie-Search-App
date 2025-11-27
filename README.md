@@ -50,40 +50,6 @@ Movie-Search-App/
 └── vite.config.js
 ```
 
-## Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Teja-Janga/Movie-Search-App.git
-cd Movie-Search-App
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-## Building for Production
-
-```bash
-npm run build
-```
-
-This generates optimized files in the `docs` folder for GitHub Pages deployment.
-
 ## Environment Setup
 
 The app uses the OMDB API. To use your own API key:
@@ -120,13 +86,6 @@ The app uses the OMDB API. To use your own API key:
 
 The app is deployed on GitHub Pages and served from the `docs` folder. Any changes pushed to the `main` branch automatically update the live site.
 
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
 ## Future Enhancements
 
 - 🎯 Advanced filtering (by year, genre, rating)
@@ -148,7 +107,6 @@ This project is open source and available under the MIT License.
 
 - OMDB API for movie data
 - React and Vite communities
-- All contributors and users
 
 ---
 
