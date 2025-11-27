@@ -44,8 +44,6 @@ Movie-Search-App/
 │   ├── App.jsx
 │   ├── App.css
 │   └── index.css
-├── docs/
-│   └── (GitHub Pages deployment)
 ├── package.json
 └── vite.config.js
 ```
