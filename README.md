@@ -1,16 +1,155 @@
-# React + Vite
+# Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎬 Live Demo
 
-Currently, two official plugins are available:
+👉 **[View Live Demo](https://teja-janga.github.io/Movie-Search-App/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+Movie Search App is a responsive web application built with React and Vite that allows users to search for movies, view detailed information, and save their favorite movies. The app uses the OMDB API to fetch real-time movie data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+✨ **Core Features:**
+- 🔍 Search movies by title
+- 📺 View detailed movie information (plot, cast, ratings, runtime, etc.)
+- ⭐ Add/remove movies from favorites
+- 💾 Persistent favorites using browser localStorage
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- ⚡ Fast performance with Vite and React
+- 🎨 Clean and intuitive UI
+- 📄 Pagination support for search results
+- ⏳ Loading states and error handling
+- 🖼️ Placeholder images for movies without posters
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend Framework:** React 18
+- **Build Tool:** Vite
+- **Styling:** CSS (Custom)
+- **API:** OMDB (Open Movie Database)
+- **Storage:** Browser LocalStorage
+- **Deployment:** GitHub Pages
+
+## Project Structure
+
+```
+Movie-Search-App/
+├── src/
+│   ├── components/
+│   │   ├── Home.jsx
+│   │   ├── MovieDetails.jsx
+│   │   ├── Header.jsx
+│   │   └── ...
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+├── docs/
+│   └── (GitHub Pages deployment)
+├── package.json
+└── vite.config.js
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Teja-Janga/Movie-Search-App.git
+cd Movie-Search-App
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Building for Production
+
+```bash
+npm run build
+```
+
+This generates optimized files in the `docs` folder for GitHub Pages deployment.
+
+## Environment Setup
+
+The app uses the OMDB API. To use your own API key:
+1. Get a free API key from [OMDB API](http://www.omdbapi.com/)
+2. Update the API endpoint in the component files
+
+## Usage
+
+1. **Search Movies:** Enter a movie title in the search bar
+2. **View Details:** Click on any movie to see full details
+3. **Save Favorites:** Click the star icon to add movies to your favorites
+4. **Browse Favorites:** Access your saved movies anytime (stored locally)
+5. **Navigate:** Use pagination to browse through search results
+
+## Features in Detail
+
+### Search Functionality
+- Real-time search powered by OMDB API
+- Pagination to handle multiple results
+- Loading states while fetching data
+- Error handling for failed requests
+
+### Movie Details
+- Full movie information including plot, cast, runtime, year, rating
+- High-quality poster images with fallback placeholders
+- Add/remove from favorites directly from details page
+
+### Favorites
+- Persistent storage using browser localStorage
+- Access saved movies even after closing the browser
+- Quick add/remove functionality
+
+## Deployment
+
+The app is deployed on GitHub Pages and served from the `docs` folder. Any changes pushed to the `main` branch automatically update the live site.
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Future Enhancements
+
+- 🎯 Advanced filtering (by year, genre, rating)
+- 🌙 Dark mode toggle
+- 📊 Movie statistics and trends
+- 🔗 Social sharing features
+- 💬 User reviews and ratings
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+**Teja Janga**
+- GitHub: [@Teja-Janga](https://github.com/Teja-Janga)
+
+## Acknowledgments
+
+- OMDB API for movie data
+- React and Vite communities
+- All contributors and users
+
+---
+
+**Made with ❤️ by Teja Janga**
