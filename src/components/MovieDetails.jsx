@@ -10,7 +10,7 @@ function MovieDetails() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    const API_KEY = "cf413c5f";
+    const API_KEY = "YOUR_API_KEY";
 
     useEffect(() => {
         async function fetchMovie() {
