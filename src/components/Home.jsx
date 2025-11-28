@@ -12,7 +12,7 @@ function Home({favourites, setFavourites, placeholder}) {
     const [loading, setLoading] = useState(false);
     const [page, setPage] = useState(1);
 
-    const API_KEY = "cf413c5f";     // YOUR_API_KEY
+    const API_KEY = "YOUR_API_KEY";  
 
     useEffect(() => {
         fetchMovies("Transformers");
